@@ -2,50 +2,43 @@
 
 ## Rendu
 
-<span style="color:red">**Rendre le projet sur github, en dépôt publique, envoyer le lien
-à [production@majordhom.fr](mailto:production@majordhom.fr), si vous m'envoyez un fichier zip je regarde pas. :)**</span>
+<span style="color:red">**Rendez le projet sur GitHub, en dépôt public, et envoyez le lien à [production@majordhom.fr](mailto:production@majordhom.fr).  
+Tout autre format (zip, wetransfer, etc.) ne sera pas pris en compte.**</span>
 
-Le README.md de votre projet doit comprendre : 
- - Un petit résumé sur vous : nom / prénom, niveau d'étude, durée du stage, etc.
- - Un screenshot de la page créée
- - Comment démarrer l'environnement de votre projet
- - Les réponses à ces questions (pas besoin d'écrire un roman)
-   - Avez-vous trouvé l'exercice facile ou vous a-t-il posé des difficultés ? Si oui, lesquelles ?
-   - Avez-vous appris de nouveaux outils pour répondre à l'exercice ? Si oui, lesquels ?
-   - Pourquoi avoir choisi d'utiliser ces outils ?
-   - Avez-vous utilisé la stack proposée ? Utilisez-vous régulièrement docker ?
+Le `README.md` de votre projet doit comprendre :
 
-
-## Démarrer la stack LAMP (optionnel)
-_Vous pouvez aussi monter votre propre serveur de développement._
-
-Cloner le repo github
-> git clone https://github.com/Majordhom/test-tremplin.git
-
-Démarer la stack Apache / Mysql / PhpMyAdmin avec docker.
-
-> docker compose up -d
-
-Apache est ouvert sur le port :80 (http://localhost:80).\
-Phpmyadmin est ouvert sur le port :8080 (http://localhost:8080)\
-Mysql est ouvert sur :3306\
-\
-Utilisateur et mdp mysql: `root` et `verysecurepassword`
+- Un court résumé sur vous :
+    - Nom / prénom
+    - Niveau d’étude / formation en cours
+    - Durée de stage souhaitée
+    - Lien vers vos profils (GitHub, LinkedIn, portfolio, …) s’il y en a
+- Des **screenshots** de la page principale réalisée
+- Une section **“Stack technique & choix”** :
+    - Framework utilisé (React ou Next.js, version)
+    - Outils et librairies principales utilisées (UI, dates, formulaires, etc.) avec 1 phrase pour expliquer chaque choix
+- Une section **“Lancement du projet”**
+- Une section **“Questions”** (réponse en quelques phrases suffit) :
+    - Avez-vous trouvé l’exercice facile ou difficile ? Qu’est-ce qui vous a posé problème ?
+    - Avez-vous appris de nouveaux outils pour répondre à l’exercice ? Si oui, lesquels ?
+    - Quelle est la place du développement web dans votre cursus de formation ?
+    - Avez-vous utilisé un LLM ? Si oui, comment intégrez vous les LLM à chaque étape de votre workflow ? 
+---
 
 ## Exercice
 
-*Limite de temps: 2 jours*
+> *Limite de temps: 2 jours*
+> 
+> Vous devez utiliser **React ou Next.js** pour ce test.
+
 
 ![alt text](./maquette.png)
 
-Vous devez intégrer cette maquette au site web de l'agence, enregistrez les données du formulaire dans la base de
-données.
-Nous voulons voir votre façon d'intégrer une maquette de manière *responsive*, comment vous organisez votre code (split des fichiers, commentaires, balises html, écriture des fonctions ...), et
-comment vous  gérez la sécurité de celui-ci.
+Vous devez intégrer une maquette de page de formulaire pour le site web de l’agence, et enregistrer les données du formulaire dans une base de données. La maquette est simpliste, à vous de voir comment répondre.
 
-Le but est de montrer ce que vous savez faire: 
-- Intégrer une maquette front avec minutie
-- Connaissance d'un framework front ou back (React, Angular, Typescript, Laravel, Symfony, NextJS ...) 
-- Autres outils pour la gestion de dates, d'un captcha etc.
+L’objectif est de voir :
+
+- Votre capacité à intégrer une maquette **avec minutie**
+- Votre maîtrise d’un **framework front JavaScript moderne : React ou Next.js**
+- Votre compréhension des besoins d'un formulaire web.
 
 Bonne chance !
