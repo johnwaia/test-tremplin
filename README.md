@@ -32,4 +32,10 @@ Le projet est construit sur une architecture **MERN** (MongoDB, Express, React, 
 
 ### 1. Cloner le projet
 ```bash
-git clone [https://github.com/ton-pseudo/ton-repo.git](https://github.com/johnwaia/test-tremplin.git)
+git clone https://github.com/johnwaia/test-tremplin.git
+
+## Questions
+- cette exercice est un test que j'ai déjà eu l'occasion de faire donc je n'ai pas trouver ce test très compliqué.
+
+- Dans mon cursus le développement web est central.
+- Oui, j'ai utilisé un LLM pour me convertir un projet que j'avais déjà développer, j'ai utilisé Gemini le LLM de Google.
